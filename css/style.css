@@ -212,14 +212,14 @@ header .name {
 }
 
 #portfolio {
-    background-color: #36827f;
+    background-color: #eceff4;
     margin-top: 180px;
     padding-bottom: 100px;
 }
 
-#portfolio .section-title {
+/* #portfolio .section-title {
     color: white;
-}
+} */
 
 .cards {
     display: flex;
@@ -236,6 +236,7 @@ header .name {
     width: 300px;
     margin: 15px 10px;
     border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.1);
 }
 
 .cards .card img {
@@ -243,7 +244,7 @@ header .name {
 }
 
 .project-description {
-    background: #efefef;
+    background: #f7faff;
     padding: 15px;
     margin: 5px;
     border-radius: 3px;
@@ -327,6 +328,10 @@ header .name {
     background-color: #36827f;
     text-align: center;
     padding-bottom: 100px;
+}
+
+#contact .section-title {
+    color: white;
 }
 
 #contact form {
