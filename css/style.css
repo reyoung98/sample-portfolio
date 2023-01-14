@@ -1,0 +1,259 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #273043;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    flex: 1;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #273043;
+    color: white; 
+}
+
+.nav a:hover {
+    background-color: #36827f;
+}
+
+.nav .logo {
+    display: flex;
+    flex: 1;
+    padding-left: 1rem;
+    text-align: start;
+    align-items: center;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 2.2rem;
+    color: #273043;
+}
+
+.nav .logo img {
+    margin-left: .7rem;
+    margin-right: .7rem;
+}
+
+.nav img {
+    width: 35px;
+    height: 35px;
+}
+
+header {
+    text-align: center;
+    padding: 170px 50px;
+    background-image: url(../img/bg8.jpg);
+    background-position: contain;
+
+}
+
+header .name {
+    color: #36827f;
+    border-bottom: 6px solid #36827f;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#intro p {
+    padding: 50px;
+    font-size: 1.2rem;
+}
+
+#intro .emphasis {
+    color: #36827f;
+    font-weight: 600;
+}
+
+.circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.circles .circle {
+    position: relative;
+    top: 65px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -125px;
+    background-color: white;
+}
+
+#features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px 50px;
+    background-color: #273043;
+    color: white;
+}
+
+#features .feature {
+    margin: 0 25px;
+    text-align: center;
+}
+
+#features .feature .title {
+    color: #9bc1bf;
+    font-size: 1.3rem;
+}
+
+#features .feature .detail {
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+.section-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+#skills .section-title {
+    color: #36827f;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0,0,0,.2);
+    margin-bottom: 10px;
+}
+
+.skill .name {
+    display: flex;
+    flex-basis: 180px;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1.2rem;   
+    background-color: #273043;
+    color: white;
+}
+
+.skill .color {
+    padding: 1.4rem 0;
+    background-color: #36827f;
+}
+
+.skill .percent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1.3rem;
+    color: #273043bb;
+    background-color: #ddd;
+}
+
+.skill1 .color, 
+.skill2 .color {
+    flex: 4;
+}
+
+.skill1 .percent,
+.skill2 .percent {
+    flex: 1;
+}
+
+.skill3 .color,
+.skill5 .color {
+    flex: 7;
+}
+
+.skill3 .percent,
+.skill5 .percent {
+    flex: 3;
+}
+
+.skill4 .color,
+.skill6 .color,
+.skill7 .color {
+    flex: 6;
+}
+
+.skill4 .percent,
+.skill6 .percent,
+.skill7 .percent {
+    flex: 4;
+}
+
+.skill8 .color {
+    flex: 1;
+}
+
+.skill8 .percent {
+    flex: 1;
+}
+
+#portfolio {
+    background-color: #36827f;
+    margin-top: 180px;
+    padding-bottom: 100px;
+}
+
+#portfolio .section-title {
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    margin: 15px 10px;
+    border-radius: 3px;
+}
+
+.cards .card img {
+    width: 200px;
+}
+
+.project-description {
+    background: #efefef;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.project-description p {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.techstack {
+    font-weight: 600;
+}
