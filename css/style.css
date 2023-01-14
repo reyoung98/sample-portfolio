@@ -235,11 +235,11 @@ header .name {
     background-color: white;
     width: 300px;
     margin: 15px 10px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .cards .card img {
-    width: 200px;
+    width: 170px;
 }
 
 .project-description {
@@ -257,3 +257,161 @@ header .name {
 .techstack {
     font-weight: 600;
 }
+
+#about .about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.about-me img {
+    width: 50%;
+}
+
+.about-me .emphasis {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.about-me button {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #36827f;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.about-me button:hover {
+    transform: scale(1.05);
+    transition: transform .3s;
+}
+
+#social {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #273043;
+    color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social a:hover {
+    transform: scale(1.05);
+    transition: transform .3s;
+}
+
+.social svg {
+    width: 75px;
+    margin: 0 40px;
+    fill: white;
+}
+
+.section-title-secondary {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #36827f;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#contact form {
+    text-align: start;
+}
+
+input[type="text"] {
+    width: 400px;
+    border: none;
+    padding: 1rem 0;
+    background-color: #36827f;
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    margin-right: 30px;
+}
+
+input::placeholder, 
+label {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.message {
+    padding-top: 30px;
+}
+
+textarea {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+button.send-message {
+        padding: .8rem;
+        margin: 2rem 0;
+        width: 100%;
+        border: none;
+        background-color: #273043;
+        border-radius: 5px;
+        font-size: 1rem;
+        color: white;
+    } 
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+footer .social {
+    display: flex;
+}
+
+footer .social svg {
+    width: 50px;
+}
+
+footer .social svg {
+    fill: rgba(0,0,0,.2);
+}
+
+.copyright {
+    margin: 60px 0;
+}
+
+.strikethrough {
+    position: relative;
+    z-index: 1;
+    width: 80%
+}
+
+.strikethrough:before {
+    border-top: 4px solid #36827f;
+    content:"";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 52%; left: 0; right: 0; bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+.strikethrough span {
+    padding: 0 20px;
+    background-color: white;
+}
+
